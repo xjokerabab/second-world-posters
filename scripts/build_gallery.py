@@ -6,8 +6,7 @@ COLS = 3
 
 SECTIONS = {
     "official": [
-        ("@Sukiea1008（Su）原帖示例", "https://x.com/Sukiea1008/status/2107363303920140592", slice(0, 4)),
-        ("@hx831126（虎小象）中文版示例", "https://x.com/hx831126/status/2107414034538496398", slice(4, 8)),
+        ("@Sukiea1008（Su）原帖示例", "https://x.com/Sukiea1008/status/2107363303920140592", slice(None)),
     ],
     "featured": [("高赞精选", None, slice(None))],
     "community": [("社区作品", None, slice(None))],

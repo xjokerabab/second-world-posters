@@ -4,21 +4,19 @@
 
 「第二世界」是一种 AI 海报风格：**上半部分忠实保留真实照片，下半部分在暖色纸面上用剪纸、照片碎片和极简黑色手绘线条，把照片里的场景延续下去**。道路、水面、光线或身体动作从照片里穿过中缝，进入一个物理规则不同的「第二世界」。
 
-本仓库收集这一风格的提示词与社区作品，共 **97 张**（已去重）。
+本仓库收集这一风格的提示词与社区作品，共 **93 张**（已去重）。
 
 ## 原作者 Credits
 
 | 角色 | 作者 | 原帖 |
 |---|---|---|
-| 原始英文提示词 | **Su** [@Sukiea1008](https://x.com/Sukiea1008) | <https://x.com/Sukiea1008/status/2107363303920140592> |
-| 中文结构化版本 | **虎小象** [@hx831126](https://x.com/hx831126) | <https://x.com/hx831126/status/2107414034538496398> |
+| 提示词作者 | **Su** [@Sukiea1008](https://x.com/Sukiea1008) | <https://x.com/Sukiea1008/status/2107363303920140592> |
 
 提示词版权归原作者所有。社区作品版权归各自创作者所有，本仓库仅作收集与展示，不用于商业用途。如原作者或图片作者希望修改署名或移除内容，请[提交 Issue](../../issues)，我们会尽快处理。
 
 ## 提示词
 
-- [原版英文提示词](prompts/original-english.md)（作者 [@Sukiea1008](https://x.com/Sukiea1008)）
-- 中文版请前往 [@hx831126 原帖](https://x.com/hx831126/status/2107414034538496398) 获取
+[原版英文提示词](prompts/original-english.md)（作者 [@Sukiea1008](https://x.com/Sukiea1008)）
 
 使用方法见 [docs/how-to-use.md](docs/how-to-use.md)。
 
@@ -26,7 +24,7 @@
 
 | 分类 | 数量 | 说明 |
 |---|---|---|
-| [官方示例](gallery/official.md) | 8 | @Sukiea1008 与 @hx831126 原帖示例图 |
+| [官方示例](gallery/official.md) | 4 | @Sukiea1008 原帖示例图 |
 | [高赞精选](gallery/featured.md) | 15 | 社区高赞作品 |
 | [社区作品](gallery/community.md) | 74 | 原帖回复、引用及传播中的作品 |
 

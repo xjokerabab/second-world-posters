@@ -111,3 +111,5 @@ HT9DK4_asAAuRFu
 HT8-pKjWkAAFbqz
 HT88jlOacAAKZ0B
 HT88kTdbEAAXDXa
+local-blossom-tree
+local-rocket-launch

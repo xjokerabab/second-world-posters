@@ -10,9 +10,9 @@
 
 - **上半部分**：忠实保留原照片，不重绘、不改色；
 - **下半部分**：在象牙色纸面上，用剪纸、照片碎片和极简黑色手绘线条，把照片里的道路、水面、光线或人物动作接着画下去；
-- **中缝**：照片里的某条结构穿过撕纸边缘，进入一个物理规则不同的世界，再配一句手写英文短句。
+- **中缝**：照片里的某条结构穿过撕纸边缘，进入一个物理规则不同的世界，再配一句手写短句。
 
-本仓库收录这一风格的原版提示词和 **117 张**作品（官方示例 4 张、社区作品 113 张），已去除重复图和未加工的原图。
+本仓库收录这一风格的原版提示词和社区作品，已去除重复图和未加工的原图。
 
 ## 原作者 Credits
 
@@ -28,6 +28,8 @@
 ## 作品展示
 
 <!-- gallery:start -->
+共 119 张作品。
+
 ### 官方示例 · 4
 
 来自 [@Sukiea1008](https://x.com/Sukiea1008/status/2107363303920140592) 原帖
@@ -37,7 +39,7 @@
 <tr><td width="33%"><a href="images/official/HT7bvgYbsAA88mL.jpg"><img src="images/official/HT7bvgYbsAA88mL.jpg" width="100%"></a></td></tr>
 </table>
 
-### 社区作品 · 113
+### 社区作品 · 115
 
 <table>
 <tr><td width="33%"><a href="images/community/HUAsAo6asAAugKA.jpg"><img src="images/community/HUAsAo6asAAugKA.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HUAsAo3bwAA2yZB.jpg"><img src="images/community/HUAsAo3bwAA2yZB.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT8DBdlbkAATmKL.jpg"><img src="images/community/HT8DBdlbkAATmKL.jpg" width="100%"></a></td></tr>
@@ -77,7 +79,8 @@
 <tr><td width="33%"><a href="images/community/HT9WkK_XkAAvNBj.jpg"><img src="images/community/HT9WkK_XkAAvNBj.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT9VxCMXMAAY_E6.jpg"><img src="images/community/HT9VxCMXMAAY_E6.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT9TEriW8AAh-B2.jpg"><img src="images/community/HT9TEriW8AAh-B2.jpg" width="100%"></a></td></tr>
 <tr><td width="33%"><a href="images/community/HT9O4nxacAAz0FN.jpg"><img src="images/community/HT9O4nxacAAz0FN.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT9ObkbaoAAigDT.jpg"><img src="images/community/HT9ObkbaoAAigDT.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT9MHAraYAAGaPT.jpg"><img src="images/community/HT9MHAraYAAGaPT.jpg" width="100%"></a></td></tr>
 <tr><td width="33%"><a href="images/community/HT9IZfhb0AAWwtg.jpg"><img src="images/community/HT9IZfhb0AAWwtg.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT9DK4_asAAuRFu.jpg"><img src="images/community/HT9DK4_asAAuRFu.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT8-pKjWkAAFbqz.jpg"><img src="images/community/HT8-pKjWkAAFbqz.jpg" width="100%"></a></td></tr>
-<tr><td width="33%"><a href="images/community/HT88jlOacAAKZ0B.jpg"><img src="images/community/HT88jlOacAAKZ0B.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT88kTdbEAAXDXa.jpg"><img src="images/community/HT88kTdbEAAXDXa.jpg" width="100%"></a></td></tr>
+<tr><td width="33%"><a href="images/community/HT88jlOacAAKZ0B.jpg"><img src="images/community/HT88jlOacAAKZ0B.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT88kTdbEAAXDXa.jpg"><img src="images/community/HT88kTdbEAAXDXa.jpg" width="100%"></a></td><td width="33%"><a href="images/community/local-blossom-tree.jpg"><img src="images/community/local-blossom-tree.jpg" width="100%"></a></td></tr>
+<tr><td width="33%"><a href="images/community/local-rocket-launch.jpg"><img src="images/community/local-rocket-launch.jpg" width="100%"></a></td></tr>
 </table>
 <!-- gallery:end -->
 

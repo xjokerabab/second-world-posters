@@ -12,7 +12,7 @@
 - **Lower half**: ivory paper where cut-paper shapes, photo fragments and minimal black line drawings continue the road, water, light or movement from the photo;
 - **The seam**: one structure from the photo crosses a torn-paper edge into a world with different physical rules, finished with a short handwritten caption.
 
-This repository collects the original prompt and **117** artworks (4 official examples, 113 community works), with duplicates and unedited source photos removed.
+This repository collects the original prompt and community artworks, with duplicates and unedited source photos removed.
 
 ## Credits
 
@@ -28,6 +28,8 @@ The prompt belongs to its original author, and every artwork belongs to its crea
 ## Gallery
 
 <!-- gallery:start -->
+119 artworks in total.
+
 ### Official Examples · 4
 
 From [@Sukiea1008](https://x.com/Sukiea1008/status/2107363303920140592)'s post
@@ -37,7 +39,7 @@ From [@Sukiea1008](https://x.com/Sukiea1008/status/2107363303920140592)'s post
 <tr><td width="33%"><a href="images/official/HT7bvgYbsAA88mL.jpg"><img src="images/official/HT7bvgYbsAA88mL.jpg" width="100%"></a></td></tr>
 </table>
 
-### Community · 113
+### Community · 115
 
 <table>
 <tr><td width="33%"><a href="images/community/HUAsAo6asAAugKA.jpg"><img src="images/community/HUAsAo6asAAugKA.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HUAsAo3bwAA2yZB.jpg"><img src="images/community/HUAsAo3bwAA2yZB.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT8DBdlbkAATmKL.jpg"><img src="images/community/HT8DBdlbkAATmKL.jpg" width="100%"></a></td></tr>
@@ -77,7 +79,8 @@ From [@Sukiea1008](https://x.com/Sukiea1008/status/2107363303920140592)'s post
 <tr><td width="33%"><a href="images/community/HT9WkK_XkAAvNBj.jpg"><img src="images/community/HT9WkK_XkAAvNBj.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT9VxCMXMAAY_E6.jpg"><img src="images/community/HT9VxCMXMAAY_E6.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT9TEriW8AAh-B2.jpg"><img src="images/community/HT9TEriW8AAh-B2.jpg" width="100%"></a></td></tr>
 <tr><td width="33%"><a href="images/community/HT9O4nxacAAz0FN.jpg"><img src="images/community/HT9O4nxacAAz0FN.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT9ObkbaoAAigDT.jpg"><img src="images/community/HT9ObkbaoAAigDT.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT9MHAraYAAGaPT.jpg"><img src="images/community/HT9MHAraYAAGaPT.jpg" width="100%"></a></td></tr>
 <tr><td width="33%"><a href="images/community/HT9IZfhb0AAWwtg.jpg"><img src="images/community/HT9IZfhb0AAWwtg.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT9DK4_asAAuRFu.jpg"><img src="images/community/HT9DK4_asAAuRFu.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT8-pKjWkAAFbqz.jpg"><img src="images/community/HT8-pKjWkAAFbqz.jpg" width="100%"></a></td></tr>
-<tr><td width="33%"><a href="images/community/HT88jlOacAAKZ0B.jpg"><img src="images/community/HT88jlOacAAKZ0B.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT88kTdbEAAXDXa.jpg"><img src="images/community/HT88kTdbEAAXDXa.jpg" width="100%"></a></td></tr>
+<tr><td width="33%"><a href="images/community/HT88jlOacAAKZ0B.jpg"><img src="images/community/HT88jlOacAAKZ0B.jpg" width="100%"></a></td><td width="33%"><a href="images/community/HT88kTdbEAAXDXa.jpg"><img src="images/community/HT88kTdbEAAXDXa.jpg" width="100%"></a></td><td width="33%"><a href="images/community/local-blossom-tree.jpg"><img src="images/community/local-blossom-tree.jpg" width="100%"></a></td></tr>
+<tr><td width="33%"><a href="images/community/local-rocket-launch.jpg"><img src="images/community/local-rocket-launch.jpg" width="100%"></a></td></tr>
 </table>
 <!-- gallery:end -->
 

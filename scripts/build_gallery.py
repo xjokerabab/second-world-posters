@@ -32,8 +32,11 @@ def grid(category):
     return len(ids), "<table>\n" + "\n".join(rows) + "\n</table>"
 
 
+TOTAL = {"README.md": "共 {} 张作品。\n", "README.en.md": "{} artworks in total.\n"}
+
 for readme, sections in SECTIONS.items():
-    parts = []
+    total = sum(grid(category)[0] for category, _, _ in sections)
+    parts = [TOTAL[readme].format(total)]
     for category, title, note in sections:
         count, table = grid(category)
         parts.append(f"### {title} · {count}\n")

@@ -13,14 +13,14 @@
 
 | 工具 | 建议 |
 |---|---|
-| ChatGPT / GPT-Image | 直接上传照片并粘贴提示词，效果最接近原作 |
+| ChatGPT / GPT-Image | 直接上传照片并粘贴提示词 |
 | Gemini | 同上，上传照片后粘贴提示词 |
 | 即梦 / 豆包 | 使用图生图，粘贴提示词，比例选 3:4 |
-| Midjourney | 用 `--cref` 或图片链接作参考，加 `--ar 3:4`；对「上半部分保持原图」的遵循度较弱 |
+| Midjourney | 不太适合：它会重新生成整张图，很难做到「上半部分保持原照片」 |
 | Flux（Kontext 等） | 用图像编辑模式，比例选 3:4 |
 
 ## 小技巧
 
 - 照片里的延伸结构越清晰，上下衔接越自然。
 - 结果里上半部分照片被改动了，可以补一句 "Keep the upper half exactly as the original photo."
-- 手写英文标注想换成中文，可以把 Caption 一节改成 "Add one short handwritten Chinese caption"。
+- 想要中文手写短句，可以把 Caption 一节改成 "Add one short handwritten Chinese caption"。

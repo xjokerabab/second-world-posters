@@ -6,7 +6,7 @@
 
 ## About
 
-"Second World" is an AI poster style that took off on X in October 2026 after [@Sukiea1008](https://x.com/Sukiea1008) shared the prompt:
+"Second World" is an AI poster style that took off on X after [@Sukiea1008](https://x.com/Sukiea1008) shared the prompt:
 
 - **Upper half**: the original photo, kept faithfully with no repainting or color changes;
 - **Lower half**: ivory paper where cut-paper shapes, photo fragments and minimal black line drawings continue the road, water, light or movement from the photo;

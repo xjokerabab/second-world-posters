@@ -9,12 +9,10 @@ SOURCE = "https://x.com/Sukiea1008/status/2107363303920140592"
 SECTIONS = {
     "README.md": [
         ("official", "官方示例", f"来自 [@Sukiea1008]({SOURCE}) 原帖"),
-        ("featured", "高赞精选", None),
         ("community", "社区作品", None),
     ],
     "README.en.md": [
         ("official", "Official Examples", f"From [@Sukiea1008]({SOURCE})'s post"),
-        ("featured", "Featured", None),
         ("community", "Community", None),
     ],
 }

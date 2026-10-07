@@ -1,0 +1,29 @@
+name: Download images
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download images
+        run: ./scripts/download_images.sh
+      - name: Build gallery
+        run: python3 scripts/build_gallery.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add images gallery
+          git diff --cached --quiet || git commit -m "Download images and rebuild gallery"
+          git push

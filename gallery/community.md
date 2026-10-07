@@ -2,7 +2,7 @@
 
 [← 返回首页](../README.md)
 
-## 社区作品（74 张）
+## 社区作品（70 张）
 
 <table>
 <tr><td width="33%"><a href="../images/community/HT8GyCdbMAA4Ee3.jpg"><img src="../images/community/HT8GyCdbMAA4Ee3.jpg" width="100%"></a></td><td width="33%"><a href="../images/community/HT8GyB7asAEkiB2.jpg"><img src="../images/community/HT8GyB7asAEkiB2.jpg" width="100%"></a></td><td width="33%"><a href="../images/community/HT8IQSSawAA0ODg.jpg"><img src="../images/community/HT8IQSSawAA0ODg.jpg" width="100%"></a></td></tr>

@@ -4,7 +4,7 @@
 
 "Second World" is an AI poster style: **the upper half keeps a real photo faithfully, and the lower half continues the same scene on warm ivory paper** with cut-paper shapes, photo fragments and minimal black hand-drawn lines. A road, shoreline, ray of light or body movement crosses the center seam into a world with different physical rules.
 
-This repository collects the prompt and **93** artworks (deduplicated).
+This repository collects the prompt and **89** artworks (deduplicated).
 
 ## Credits
 
@@ -26,7 +26,7 @@ See [docs/how-to-use.md](docs/how-to-use.md) for usage.
 |---|---|---|
 | [Official examples](gallery/official.md) | 4 | Examples from @Sukiea1008's post |
 | [Featured](gallery/featured.md) | 15 | Popular community works |
-| [Community](gallery/community.md) | 74 | Replies, quotes and reposts |
+| [Community](gallery/community.md) | 70 | Replies, quotes and reposts |
 
 ## Images
 

@@ -1,43 +1,54 @@
-"""根据 data/*.txt 生成 gallery/*.md 图片墙。只展示 images/ 下已下载的图片。"""
+"""根据 data/*.txt 把作品图片墙写入 README.md 和 README.en.md 的标记区间。"""
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 COLS = 3
+SOURCE = "https://x.com/Sukiea1008/status/2107363303920140592"
 
 SECTIONS = {
-    "official": [
-        ("@Sukiea1008（Su）原帖示例", "https://x.com/Sukiea1008/status/2107363303920140592", slice(None)),
+    "README.md": [
+        ("official", "官方示例", f"来自 [@Sukiea1008]({SOURCE}) 原帖"),
+        ("featured", "高赞精选", None),
+        ("community", "社区作品", None),
     ],
-    "featured": [("高赞精选", None, slice(None))],
-    "community": [("社区作品", None, slice(None))],
+    "README.en.md": [
+        ("official", "Official Examples", f"From [@Sukiea1008]({SOURCE})'s post"),
+        ("featured", "Featured", None),
+        ("community", "Community", None),
+    ],
 }
-TITLES = {"official": "官方示例", "featured": "高赞精选", "community": "社区作品"}
 
 
-def grid(category, ids):
+def grid(category):
+    ids = (ROOT / "data" / f"{category}.txt").read_text().split()
     ids = [i for i in ids if (ROOT / "images" / category / f"{i}.jpg").exists()]
-    if not ids:
-        return "_图片尚未下载，见 README「图片下载」。_\n"
     rows = []
     for start in range(0, len(ids), COLS):
         cells = [
-            f'<td width="33%"><a href="../images/{category}/{i}.jpg">'
-            f'<img src="../images/{category}/{i}.jpg" width="100%"></a></td>'
+            f'<td width="33%"><a href="images/{category}/{i}.jpg">'
+            f'<img src="images/{category}/{i}.jpg" width="100%"></a></td>'
             for i in ids[start:start + COLS]
         ]
         rows.append("<tr>" + "".join(cells) + "</tr>")
-    return "<table>\n" + "\n".join(rows) + "\n</table>\n"
+    return len(ids), "<table>\n" + "\n".join(rows) + "\n</table>"
 
 
-for category, parts in SECTIONS.items():
-    ids = (ROOT / "data" / f"{category}.txt").read_text().split()
-    out = [f"# {TITLES[category]}\n", "[← 返回首页](../README.md)\n"]
-    for heading, link, sl in parts:
-        sub = ids[sl]
-        out.append(f"## {heading}（{len(sub)} 张）\n")
-        if link:
-            out.append(f"原帖：<{link}>\n")
-        out.append(grid(category, sub))
-    out.append("\n> 图片版权归各自作者所有，本仓库仅作收集展示。\n")
-    (ROOT / "gallery" / f"{category}.md").write_text("\n".join(out))
-    print(f"gallery/{category}.md")
+for readme, sections in SECTIONS.items():
+    parts = []
+    for category, title, note in sections:
+        count, table = grid(category)
+        parts.append(f"### {title} · {count}\n")
+        if note:
+            parts.append(note + "\n")
+        parts.append(table + "\n")
+    path = ROOT / readme
+    text = path.read_text()
+    text = re.sub(
+        r"(<!-- gallery:start -->).*?(<!-- gallery:end -->)",
+        lambda m: m.group(1) + "\n" + "\n".join(parts) + m.group(2),
+        text,
+        flags=re.S,
+    )
+    path.write_text(text)
+    print(readme)
